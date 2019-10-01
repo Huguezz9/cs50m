@@ -1,0 +1,3 @@
+Prototype Inheritance: process by which more complex object can have
+                       methods and properties.
+
