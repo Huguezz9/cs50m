@@ -1,3 +1,39 @@
 Prototype Inheritance: process by which more complex object can have
                        methods and properties.
 
+Closure: variables can only be accessed if they are being called in
+         their scope. Global variables declared in the global scope 
+         can be accessed inside functions.
+
+Let variable: variable that only exists on the scope/block is called.
+
+IIFE-Inmediately Invoked Function Expression: nameless function that gets
+                                              invoked inmediately.
+
+First class functions: functions are treated as any other value.
+
+High order functions: function that takes other functions inside of it.
+-- .map(): takes a function as a parameter and applies that function to all 
+           the values inside the first object.
+-- .filter(): returns all the values that are true, and gets rid of the false
+              ones.
+-- .reduce(): reduces array to a single value. Executes the function for each value
+              of the array.
+
+JavaScript is synchronous on is stack and function queue, while APIs are asynchronous.
+
+Callbacks: execute function one asynchronous call returns value.
+
+Promises: in the tradeoff with callbacks win a lot of indentation since you avoid all the
+          brackets that come with callbacks. In 2018 promises are used more than callbacks,
+          that are being deprecated.
+
+this (js): refers to an object that is set at the creation of a new execution. Refers to the
+           global object.
+
+.bind(): binds something to the function passed. Example in js_notes.
+         const greet = person.greet.bind({name: 'binded name.'})
+.call(): person.greet.call({name: 'bound name too'})
+.apply(): person.greet.apply({name: 'also bound'})
+
+DOM: Document Object Model. Tree structure model that HTML is build on. We can modify DOM using JavaScript.
