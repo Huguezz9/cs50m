@@ -1,0 +1,17 @@
+class set {
+   	constructor(arr) {
+   	this.arr = arr
+   }
+	add(val){
+	
+	}
+
+	delete(val){
+	
+	}
+
+	has(val){
+
+	}
+}
+

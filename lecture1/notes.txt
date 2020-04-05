@@ -37,3 +37,18 @@ this (js): refers to an object that is set at the creation of a new execution. R
 .apply(): person.greet.apply({name: 'also bound'})
 
 DOM: Document Object Model. Tree structure model that HTML is build on. We can modify DOM using JavaScript.
+
+
+Classes: Date() "Which gives you the current date"
+Intanse: const d = new Date(); "which gives you an instance with the current date"
+Method: function that can be invoked in evert instance: Date.now() // d.toString();
+
+Sets: list of unique values.
+
+REACT: JS library that allows us to extract larger problems into smaller components. 
+        Allows us to write simpler code that still performs greatly.
+
+Imperatvive vs Declarative: 
+
+Imperative languages outlines a series of steps to get what you want.
+Declarative languages simply declares what you want.
